@@ -1,0 +1,49 @@
+.works{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width:100%;
+}
+h1{
+    text-align: center;
+}
+.work-type{
+    text-align: center;
+}
+.work-type >span{
+    padding:10px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    margin-right: 5px;
+    color:#000;
+    border:1px solid #ccc;
+}
+.work-type >span:hover{
+    background-color:#f36f36;
+    color:#fff;
+    cursor:pointer;
+}
+.types {
+    width:100%;
+    text-align: center;
+}
+.types img{
+    display:inline-block;
+    max-width:100%;
+    height:auto;
+}
+.bg{
+    background:url('./webclone/img/bg-3.jpg');
+    width:100%;
+    margin-top:8%;
+    text-align: center;
+}
+.bg .content{
+    width:78%;
+    padding: 10%;
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+.content h1{
+    color:#fff;
+}
+

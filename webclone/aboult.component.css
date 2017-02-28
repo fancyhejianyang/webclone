@@ -1,0 +1,39 @@
+.aboult{
+    width:100%;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+h1{
+    text-align:center;
+    color:#111;
+}
+.container{
+    width:100%;
+    text-align: center;
+}
+.content{
+    display: inline-block;
+    width:30%;
+    text-align: left;
+    line-height:28px;
+}
+.creation{
+   display: inline-block;
+   width:45%; 
+}
+.team{
+    text-align:center;
+    width:100%;
+}
+.team_member{
+    display: inline-block;
+    width:15%;
+    margin-left:5px;
+}
+.team_member img{
+    width:auto;
+    display: inline-block;
+    max-width:100%;
+    height:auto;
+    border-radius:75px;
+}

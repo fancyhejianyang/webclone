@@ -1,0 +1,15 @@
+.footer{
+    width:100%;
+    background-color: #414141;
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+.footer .foot{
+    width:100%;
+}
+.copy-right{
+    width:40%;
+    margin:auto;
+    text-align: center;
+    line-height: 25px;
+}

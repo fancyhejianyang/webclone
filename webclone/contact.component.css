@@ -1,0 +1,66 @@
+.contact{
+    background-color: #1bac91;
+    width:100%;
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+.contact >h1{
+    width:100%;
+    text-align: center;
+    color:#fff;
+}
+.statement{
+    max-width:100%;
+    padding:0 40px 0 40px;
+}
+.statement span{
+    text-align: center;
+    color:#fff;
+    line-height: 30px;
+}
+.details {
+    width:100%;
+    margin-top:30px;
+}
+.details .additions{
+    display: inline-block;
+    width:48%;
+}
+.details .contactive-style {
+    display: inline-block;
+    width:50%;
+}
+.details .contactive-style >input{
+    width:88%;
+    height:55px;
+    line-height: 55px;
+    margin:15px 35px 15px 35px;
+    font-size:16px;
+    padding: 3px;
+    background-color: rgba(227, 231, 228, 1);
+    border-radius: 3px;
+}
+.additions textarea{
+    width:94%;
+    height:204px;
+    padding:8px 3px;
+}
+.msg {
+    width:100%;
+}
+.msg .sendMsg{
+    width:15%;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    margin:auto;
+    margin-top:20px;
+    margin-left:50%;
+    background-color: #e06d5e;
+    color:#fff;
+    font-size: 16px;
+}
+.msg .sendMsg:hover{
+    background-color: #43413e;
+    cursor:pointer;
+}
