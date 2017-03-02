@@ -8,11 +8,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 //根据命名约定，类名为HeroService
-const core_1 = require('@angular/core');
-const http_1 = require('@angular/http');
-require('rxjs/add/operator/toPromise');
-let HeroService = class HeroService {
+const core_1 = require("@angular/core");
+const http_1 = require("@angular/http");
+require("rxjs/add/operator/toPromise");
+let HeroService = 
+//当typescript 看到这个装饰器会记下本服务的元数据,angular 需要往其中注入依赖才能进行使用元数据
+class HeroService {
     constructor(http) {
         this.http = http;
         this.heroesUrl = "app/heroes"; //url to web api 
@@ -55,8 +58,10 @@ let HeroService = class HeroService {
     }
 };
 HeroService = __decorate([
-    core_1.Injectable(), 
-    __metadata('design:paramtypes', [http_1.Http])
+    core_1.Injectable()
+    //当typescript 看到这个装饰器会记下本服务的元数据,angular 需要往其中注入依赖才能进行使用元数据
+    ,
+    __metadata("design:paramtypes", [http_1.Http])
 ], HeroService);
 exports.HeroService = HeroService;
 //# sourceMappingURL=hero.service.js.map

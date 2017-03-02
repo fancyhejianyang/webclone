@@ -8,8 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
-const router_1 = require('@angular/router');
+const router_1 = require("@angular/router");
 const hero_service_1 = require("./hero.service");
 let HeroesComponent = class HeroesComponent {
     constructor(heroService, router) {
@@ -60,8 +61,8 @@ HeroesComponent = __decorate([
         selector: 'my-heroes',
         styleUrls: ['./app/heroes.component.css'],
         templateUrl: './app/heroes.component.html'
-    }), 
-    __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.Router])
+    }),
+    __metadata("design:paramtypes", [hero_service_1.HeroService, router_1.Router])
 ], HeroesComponent);
 exports.HeroesComponent = HeroesComponent;
 //# sourceMappingURL=heroes.component.js.map
